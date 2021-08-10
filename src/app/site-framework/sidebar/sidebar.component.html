@@ -1,0 +1,17 @@
+<h1 class="my-4">SHOP NAME</h1>
+
+<a href="products" class="list-group-item" style="background-color: rgba(140, 231, 204, 0.774); color:rgb(187, 107, 107) ;">
+  View All Products
+</a>
+<a href="products/create-product" class="list-group-item" style= "color:rgb(187, 107, 107) ;">
+  Add New Products
+</a>
+<div class="list-group"  *ngFor="let cat of categoryList">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a href="products/category/{{ cat.id }}" class="list-group-item" style="color: rgb(187, 107, 107);">
+    {{ cat.categoryName }}
+  </a>
+
+</div>

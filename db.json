@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categoryId": "1",
+      "productName": "polo",
+      "description": "Product description goes here",
+      "rating": 5,
+      "price": "100",
+      "productImg": "http://localhost:4200/assets/img1.jpg",
+      "isAvailable": "true",
+      "color": "red",
+      "reviews": "120"
+    },
+    {
+      "id": 2,
+      "categoryId": "2",
+      "productName": "soccer",
+      "description": "Product description goes here",
+      "rating": 5,
+      "price": "100",
+      "productImg": "http://localhost:4200/assets/img2.jpg",
+      "isAvailable": "true",
+      "color": "red",
+      "reviews": "120"
+    },
+    {
+      "productid": 10,
+      "categoryId": "3",
+      "productName": "pingpong",
+      "description": "best pingpong",
+      "rating": "4",
+      "price": "344",
+      "productImg": "",
+      "isAvailable": 1,
+      "color": "blue",
+      "reviews": "3",
+      "id": 3
+    },
+    {
+      "productid": 10,
+      "categoryId": "3",
+      "productName": "pingpong",
+      "description": "best pingpong",
+      "rating": "4",
+      "price": "344",
+      "productImg": "",
+      "isAvailable": 1,
+      "color": "blue",
+      "reviews": "3",
+      "id": 4
+    },
+    {
+      "categoryId": "4",
+      "productName": "sam",
+      "description": "effcavc",
+      "rating": "3",
+      "price": "1233",
+      "productImg": "",
+      "isAvailable": 1,
+      "color": "red",
+      "reviews": "3",
+      "id": 7
+    },
+    {
+      "categoryId": "2",
+      "productName": "dam",
+      "description": "cdbsakjnckm",
+      "rating": "2",
+      "price": "999",
+      "productImg": "",
+      "isAvailable": 1,
+      "color": "black",
+      "reviews": "3",
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Polo Tshirts"
+    },
+    {
+      "id": 2,
+      "categoryName": "Soccer Tshirts"
+    },
+    {
+      "id": 3,
+      "categoryName": "Casual Tshirts"
+    },
+    {
+      "id": 4,
+      "categoryName": "Watch"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
